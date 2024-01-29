@@ -88,8 +88,8 @@ function scrollToTop() {
 window.addEventListener("scroll", checkScroll);
 
 // Attach the click event listener to the button
-let top5 = document.getElementById("scroll-to-top-button");
-console.log(top);
+//let top5 = document.getElementById("scroll-to-top-button");
+//console.log(top);
 document
   .getElementById("scroll-to-top-button")
   .addEventListener("click", scrollToTop);
